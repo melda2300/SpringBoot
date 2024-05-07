@@ -21,22 +21,27 @@ public class HelloController {
     public String sayHello() {
         return "Hello world";
     }
+
     @GetMapping(path = "view")
-    public String view(){
+    public String view() {
         return "görüntüleme";
     }
-    @PostMapping(path ="save" )
+
+    @PostMapping(path = "save")
     public String save() {
         return "Kaydetme";
     }
-    @PostMapping(path ="update")
+
+    @PostMapping(path = "update")
     public String update() {
         return "Güncelleme";
     }
-    @PatchMapping(path ="update_a_part")
+
+    @PatchMapping(path = "update_a_part")
     public String update_A_Part() {
         return "bir bölümünü güncellemek";
     }
+
     @DeleteMapping(path = "to_dalete")
     public String to_Delete() {
         return "silmek";
