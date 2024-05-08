@@ -18,3 +18,5 @@ public class HeaderController {
         return "Your hader is : "+myHeader;
     }
 }
+// @RequestHeaderBir istek başlığını denetleyicideki bir yöntem
+// argümanına bağlamak için kullanılır.
