@@ -14,7 +14,7 @@ public class HelloController {
           ÖR: parola güncelemek gibi
    Delete : veri silmek istediğimiz zaman kullanırız.                         =  @DeleteMapping
      */
-    // localHost:8080/hello/api
+    // localHost:8080/api/Hello
 
     @GetMapping(path = "/Hello")
     // @RequestMapping(path = "/hello", method = RequestMethod.GET) = üsteki ile aynı işlemi görüyor
