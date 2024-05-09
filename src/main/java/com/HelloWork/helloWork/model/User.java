@@ -1,4 +1,4 @@
-/*package com.HelloWork.helloWork.model;
+package com.HelloWork.helloWork.model;
 
 public class User {
     private String name;
@@ -40,4 +40,4 @@ public class User {
     }
 }
 
- */
+
